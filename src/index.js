@@ -37,8 +37,20 @@ import ReactDOM from 'react-dom'
 // import App from './09_前面知識點的補充/01_setState不可變的力量';
 // import App from './10_受控和非受控組件/01_refs的使用';
 // import App from './10_受控和非受控組件/02_受控組件的基本使用';
-import App from './10_受控和非受控組件/05_非受控組件';
+// import App from './10_受控和非受控組件/05_非受控組件';
 
+// import App from './11_高階組件的使用/01_高階組件的定義方式';
+// import App from './11_高階組件的使用/02_高階組件的應用-增強props';
+// import App from './11_高階組件的使用/03_高階組件的應用-增強props-默認';
+// import App from './11_高階組件的使用/04_高階組件的應用-增強props-改進';
+// import App from './11_高階組件的使用/05_高階組件的應用-登入鑑權操作';
+// import App from './11_高階組件的使用/06_高階組件的應用-生命週期的劫持';
+// import App from './11_高階組件的使用/07_高階組件的應用-生命週期的劫持-進階';
 
+// import App from './12_組件的內容補充/01_ref的轉發';
+// import App from './12_組件的內容補充/02_portals的使用';
+// import "./css/index.css"
+// import App from './12_組件的內容補充/03_fragement的使用';
+import App from './12_組件的內容補充/04_stricMode的使用';
 
-ReactDOM.render(<App/>, document.getElementById('root'))
+ReactDOM.render(<App name="Renny"/>, document.getElementById('root'))
